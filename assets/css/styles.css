@@ -68,6 +68,7 @@ section {
   border-radius: 50%;
   padding: 16px;
   margin-bottom: 16px;
+  background: linear-gradient(63deg, #999 20%);
 }
 
 .banner .logo img {
@@ -75,6 +76,7 @@ section {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  display: block;
 }
 
 .banner .banner-content button {
@@ -124,7 +126,7 @@ section {
   padding: 200px;
   text-shadow: 3px 3px 3px #f7fcfcf3;
   background: linear-gradient(63deg, #999 20%);
-  -webkit-background-clip: (Chrome, Safari 3);
+  -webkit-background-clip: content-box;
   filter: drop-shadow(3px 2px 2px rgba(255, 255, 255, 0.87));
 }
 
