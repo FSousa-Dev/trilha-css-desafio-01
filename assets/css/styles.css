@@ -1,0 +1,89 @@
+body {
+    background-color: rgba(0, 0, 0, 0.89);
+   }
+   .banner-content {
+       padding-bottom: 20px;
+       text-align: center;
+       }
+   img {
+       display: block;
+       margin: auto;
+   }
+   h1 {
+       font-size: large bold;
+       color: rgb(0, 140, 255);
+       text-shadow: 3px 3px 3px #f7fcfcf3;
+   }
+   p {
+       color: white;
+       text-align: center;
+       }
+   button {
+       border-color: #2b4357;
+       color: rgb(0, 140, 255);
+       box-shadow: 15px;
+       background-color: rgba(0, 0, 0, 0.89);
+   } 
+   span {
+       margin: 5px;
+       color: #3280da;
+   }
+   .modules-list {
+       margin-bottom: 5px wheat;
+       filter: drop-shadow(3px 2px 2px rgba(22, 20, 20, 0.295));
+   }
+   .module {
+       width: 400px;
+       height: 20px;
+       margin-left: 300px;
+       border-radius: 10px;
+       padding: auto;
+       font-stretch: condensed;
+       align-self: center;
+       border: solid 2px;
+       border-color: #2b4357;
+       color: white;
+       box-shadow: 20px;
+       background-color: rgba(0, 0, 0, 0.89);
+       margin-bottom: solid 1px wheat;
+       
+   }
+   #mundo {
+       text-align: left;
+       font-weight: 900;
+       font-size: 30px;
+       text-shadow: 3px 3px 3px #f7fcfcf3;
+       margin-top: 0px;
+       position: absolute;
+       z-index: 1;
+       top: 100px;
+       left: 50px;
+   }
+   h2 {
+       text-align: center;
+       color: rgba(0, 119, 255, 0.9);
+   }
+   #course-content {
+       background-color: rgba(0, 0, 0, 0.89);
+       text-align: center;
+       padding: 15px;
+   }
+   #transform-world {
+       height: 300px;
+       background-attachment: fixed;
+       background-size: cover;
+       background-image: url('../images/woman-code.png');
+       background: linear-gradient(63deg, #999 20%);
+       -webkit-background-clip: border-box;
+       filter: drop-shadow(3px 2px 2px rgba(255, 255, 255, 0.87));
+       
+   }
+   header {
+       border-bottom: solid 2px blue;
+   }
+   section {
+       border-bottom: solid 2px blue;
+   }
+   footer {
+       border-top: 2px solid blue;
+   }
